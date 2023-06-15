@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76FA0812A31CB4500C0C5CA /* GodotShare.mm in Sources */ = {isa = PBXBuildFile; fileRef = C76FA0802A31CB4500C0C5CA /* GodotShare.mm */; };
+		C76FA0822A31CB4500C0C5CA /* GodotShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C76FA07F2A31CB4500C0C5CA /* GodotShare.h */; };
+		C76FA08A2A31D1A300C0C5CA /* GodotShareHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C76FA0892A31D1A300C0C5CA /* GodotShareHelper.mm */; };
+		C76FA08D2A31D43D00C0C5CA /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FA08C2A31D43D00C0C5CA /* SwiftClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C76FA07A2A31CB4500C0C5CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C76FA0822A31CB4500C0C5CA /* GodotShare.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C76FA07C2A31CB4500C0C5CA /* libGodotShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGodotShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76FA07F2A31CB4500C0C5CA /* GodotShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodotShare.h; sourceTree = "<group>"; };
+		C76FA0802A31CB4500C0C5CA /* GodotShare.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GodotShare.mm; sourceTree = "<group>"; };
+		C76FA0882A31D19100C0C5CA /* GodotShareHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodotShareHelper.h; sourceTree = "<group>"; };
+		C76FA0892A31D1A300C0C5CA /* GodotShareHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GodotShareHelper.mm; sourceTree = "<group>"; };
+		C76FA08B2A31D43C00C0C5CA /* GodotShare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GodotShare-Bridging-Header.h"; sourceTree = "<group>"; };
+		C76FA08C2A31D43D00C0C5CA /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76FA0792A31CB4500C0C5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76FA0732A31CB4500C0C5CA = {
+			isa = PBXGroup;
+			children = (
+				C76FA07E2A31CB4500C0C5CA /* GodotShare */,
+				C76FA07D2A31CB4500C0C5CA /* Products */,
+				C76FA08B2A31D43C00C0C5CA /* GodotShare-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		C76FA07D2A31CB4500C0C5CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76FA07C2A31CB4500C0C5CA /* libGodotShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76FA07E2A31CB4500C0C5CA /* GodotShare */ = {
+			isa = PBXGroup;
+			children = (
+				C76FA08C2A31D43D00C0C5CA /* SwiftClass.swift */,
+				C76FA07F2A31CB4500C0C5CA /* GodotShare.h */,
+				C76FA0802A31CB4500C0C5CA /* GodotShare.mm */,
+				C76FA0882A31D19100C0C5CA /* GodotShareHelper.h */,
+				C76FA0892A31D1A300C0C5CA /* GodotShareHelper.mm */,
+			);
+			path = GodotShare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76FA07B2A31CB4500C0C5CA /* GodotShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76FA0852A31CB4500C0C5CA /* Build configuration list for PBXNativeTarget "GodotShare" */;
+			buildPhases = (
+				C76FA0782A31CB4500C0C5CA /* Sources */,
+				C76FA0792A31CB4500C0C5CA /* Frameworks */,
+				C76FA07A2A31CB4500C0C5CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodotShare;
+			productName = GodotShare;
+			productReference = C76FA07C2A31CB4500C0C5CA /* libGodotShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76FA0742A31CB4500C0C5CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C76FA07B2A31CB4500C0C5CA = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = C76FA0772A31CB4500C0C5CA /* Build configuration list for PBXProject "GodotShare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76FA0732A31CB4500C0C5CA;
+			productRefGroup = C76FA07D2A31CB4500C0C5CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76FA07B2A31CB4500C0C5CA /* GodotShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76FA0782A31CB4500C0C5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76FA0812A31CB4500C0C5CA /* GodotShare.mm in Sources */,
+				C76FA08A2A31D1A300C0C5CA /* GodotShareHelper.mm in Sources */,
+				C76FA08D2A31D43D00C0C5CA /* SwiftClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C76FA0832A31CB4500C0C5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C76FA0842A31CB4500C0C5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76FA0862A31CB4500C0C5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJC5HUG99F;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/godot/platform/ios",
+					"$(SRCROOT)/godot",
+				);
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+					"-DDEBUG",
+					"-fmodules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GodotShare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C76FA0872A31CB4500C0C5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJC5HUG99F;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/godot/platform/ios",
+					"$(SRCROOT)/godot",
+				);
+				OTHER_CFLAGS = (
+					"-fcxx-modules",
+					"-DPTRCALL_ENABLED",
+					"-DDEBUG_ENABLED",
+					"-DDEBUG_MEMORY_ALLOC",
+					"-DDISABLE_FORCED_INLINE",
+					"-DTYPED_METHOD_BIND",
+					"-DDEBUG",
+					"-fmodules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GodotShare-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76FA0772A31CB4500C0C5CA /* Build configuration list for PBXProject "GodotShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76FA0832A31CB4500C0C5CA /* Debug */,
+				C76FA0842A31CB4500C0C5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76FA0852A31CB4500C0C5CA /* Build configuration list for PBXNativeTarget "GodotShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76FA0862A31CB4500C0C5CA /* Debug */,
+				C76FA0872A31CB4500C0C5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76FA0742A31CB4500C0C5CA /* Project object */;
+}
